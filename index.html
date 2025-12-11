@@ -1,0 +1,277 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>My Portfolio</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="page">
+    <header class="nav">
+      <div class="logo">MuthuKumaran M<span class="accent">..</span></div>
+      <nav class="nav-links">
+        <a href="#about">About</a>
+        <a href="#education">Education</a>
+        <a href="#skills">Skills</a>
+        <a href="#projects">Projects</a>
+        <a href="#certificates">Certificates</a>
+        <a href="#contact">Contact</a>
+      </nav>
+    </header>
+
+    <main>
+      <section class="hero">
+        <div class="hero-text">
+          <p class="eyebrow">Portfolio</p>
+          <h1>Hi, I’m <span class="gradient">MuthuKumaran M</span></h1>
+          <p class="lede">
+            Short personal summary. Mention your role, domain focus, and what makes you unique.
+          </p>
+          <div class="hero-actions">
+            <a class="btn primary" href="#projects">View Projects</a>
+            <a class="btn ghost" href="#contact">Contact Me</a>
+          </div>
+          <div class="contact-strip">
+            <a href="https://www.linkedin.com/in/muthukumaran-m-27657723a" target="_blank" rel="noreferrer">LinkedIn</a>
+            <span>·</span>
+            <a href="https://wa.me/9080371550" target="_blank" rel="noreferrer">WhatsApp</a>
+            <span>·</span>
+            <a href="mailto:muthukumaranm974@gmail.com">Email</a>
+          </div>
+        </div>
+        <div class="hero-card">
+          <div class="avatar">
+            <img src="MuthuKumaran M.jpg" alt="Portrait of MuthuKumaran M" width="240" height="240" loading="eager" fetchpriority="high">
+          </div>
+          <div class="stat">
+            <p class="label">Primary Role</p>
+            <p class="value">Cyber Security | Networking | SOC | VAPT | Hardware</p>
+          </div>
+          <div class="stat">
+            <p class="label">Location</p>
+            <p class="value">Chenna, India </p>
+          </div>
+          <div class="stat">
+            <p class="label">Availability</p>
+            <p class="value">Open for opportunities</p>
+          </div>
+        </div>
+      </section>
+
+      <section id="about" class="section two-col">
+        <div>
+          <p class="eyebrow">About</p>
+          <h2>Who I am</h2>
+          <p>
+            A focused paragraph about your background, what you do best, and the impact you like to create.
+          </p>
+          <p>
+            Mention favorite tools, industries, or problems you solve. Add a personal touch or unique value.
+          </p>
+        </div>
+        <div class="highlights">
+          <div class="highlight">
+            <p class="label">Years of experience</p>
+            <p class="value">10 Months</p>
+          </div>
+          <div class="highlight">
+            <p class="label">Key strengths</p>
+            <p class="value">Cyber Security | Networking | VAPT | Hardware | Support Engineer</p>
+          </div>
+          <div class="highlight">
+            <p class="label">Current focus</p>
+            <p class="value">Cyber Security analysist,Networking,VAPT,SOC Analysist, NOC Engineer</p>
+          </div>
+        </div>
+      </section>
+
+      <section id="education" class="section">
+        <p class="eyebrow">Education</p>
+        <h2>Where I studied</h2>
+        <div class="edu-timeline" id="education-list"></div>
+      </section>
+
+      <section id="skills" class="section">
+        <p class="eyebrow">Skills</p>
+        <h2>What I use</h2>
+        <div class="chips">
+          <span class="chip">Cyber Security</span><span class="chip">Networking</span><span class="chip">OWASP Zap</span>
+          <span class="chip">VAPT</span><span class="chip">Computer Hardwares</span><span class="chip">Nessus</span>
+          <span class="chip">SOC</span><span class="chip">TCP/IP</span><span class="chip">Wireshark</span>
+          <span class="chip">Linux</span><span class="chip">Windows</span><span class="chip">System troubleshooting</span>
+          <span class="chip">Network monitoring</span><span class="chip">Hardware troubleshooting</span><span class="chip">Network security assessment</span>
+        </div>
+      </section>
+
+      <section id="experience" class="section">
+        <p class="eyebrow">Experience</p>
+        <h2>Where I’ve contributed</h2>
+        <div class="list">
+          <div class="list-item">
+            <div>
+              <p class="list-title">VAPT Internship</p>
+              <p class="muted">RR IT Solutions · Chennai · March 2025 - August 2025</p>
+              <p class="muted">Performed vulnerability assessments and penetration testing on multiple websites and network infrastructures using tools like
+                Nessus, Nmap, Metasploit, and Wireshark.
+                Documented findings with detailed Proof of Concept (PoC) reports and submitted remediation recommendations to improve
+                overall security posture.
+                Collaborated with security teams to validate fixes and ensure compliance with best practices and OWASP standards.</p>
+            </div>
+          </div>
+          <div class="list-item">
+            <div>
+              <p class="list-title">Digital Forensics Internship</p>
+              <p class="muted">Kriyavan Cyber Forensics Pvt.Ltd · April 2024 - July 2024</p>
+              <p class="muted">Performed disk recovery using tools like TestDisk and Autopsy to restore lost or deleted data.
+                Ensured evidence integrity through disk isolation using write blockers and read-only access methods.
+                Utilized OSINT techniques and disk imaging to collect public data and create secure forensic copies for analysis.</p>
+            </div>
+          </div>
+          <div class="list-item">
+            <div>
+              <p class="list-title">Network Penetration Testing Internship</p>
+              <p class="muted">Prompt InfoTech Pvt.Ltd · 5 days · August 2024</p>
+              <p class="muted">Conducted scanning and enumeration using Nmap and Netcat, followed by vulnerability assessments with Nessus and
+                OpenVAS.
+                Analyzed network traffic using Wireshark to identify threats, anomalies, and performance issues.</p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="projects" class="section">
+        <p class="eyebrow">Projects</p>
+        <h2>Featured work & builds</h2>
+        <div class="cards grid">
+          <article class="card">
+            <div class="card-header">
+              <h3>Project Name</h3>
+              <span class="pill">Tech stack</span>
+            </div>
+            <p>Brief description of the problem, your approach, and the result.</p>
+          </article>
+          <article class="card">
+            <div class="card-header">
+              <h3>Project Name</h3>
+              <span class="pill">Tech stack</span>
+            </div>
+            <p>Brief description of the problem, your approach, and the result.</p>
+          </article>
+          <article class="card">
+            <div class="card-header">
+              <h3>Sample Project</h3>
+              <span class="pill">Quick build</span>
+            </div>
+            <p>One-liner about what it does and what you learned.</p>
+          </article>
+          <article class="card">
+            <div class="card-header">
+              <h3>Sample Project</h3>
+              <span class="pill">Quick build</span>
+            </div>
+            <p>One-liner about what it does and what you learned.</p>
+          </article>
+        </div>
+      </section>
+
+      <section id="certificates" class="section">
+        <p class="eyebrow">Certificates</p>
+        <h2>Proof of learning</h2>
+        <div class="list">
+          <div class="list-item">
+            <div>
+              <p class="list-title">Ethical Hacking Essential</p>
+              <p class="muted">EC Counsil</p>
+            </div>
+            <a href="https://learn.eccouncil.org/certificate/9996cd87-d138-4ca7-9224-bf9f92c8be38?logged=true" target="_blank" rel="noreferrer">View</a>
+          </div>
+          <div class="list-item">
+            <div>
+              <p class="list-title">Network Defense Fundamentals: Training for IT Beginners</p>
+              <p class="muted">EC Counsil</p>
+            </div>
+            <a href="https://learn.eccouncil.org/certificate/98b7cc47-4bc3-4ef6-803b-be3fa32bbf92?logged=true" target="_blank" rel="noreferrer">View</a>
+          </div>
+          <div class="list-item">
+            <div>
+              <p class="list-title">SQL Injection Attacks</p>
+              <p class="muted">EC Counsil</p>
+            </div>
+            <a href="https://learn.eccouncil.org/certificate/d1087938-68a9-4c83-90b9-046ee43b3c15?logged=true" target="_blank" rel="noreferrer">View</a>
+          </div>
+          <div class="list-item">
+            <div>
+              <p class="list-title">
+                Computer Hardware Basics</p>
+              <p class="muted">CISCO</p>
+            </div>
+            <a href="https://www.credly.com/badges/915a6b13-a615-4240-bf37-7b037942ec30" target="_blank" rel="noreferrer">View</a>
+          </div>
+          <div class="list-item">
+            <div>
+              <p class="list-title">Networking Basics</p>
+              <p class="muted">CISCO</p>
+            </div>
+            <a href="https://www.credly.com/badges/bcc54f78-edd1-4a00-88fc-70c8c3a1113e" target="_blank" rel="noreferrer">View</a>
+          </div>
+        </div>
+      </section>
+
+      <section id="contact" class="section contact">
+        <p class="eyebrow">Contact</p>
+        <h2>Let’s work together</h2>
+        <p>Drop a message for opportunities, collaborations, or a quick hello.</p>
+        <div class="contact-actions">
+          <a class="btn ghost" href="mailto:muthukumaranm974@gmail.com">Email me</a>
+          <a class="btn ghost" href="https://wa.me/9080371550" target="_blank" rel="noreferrer">WhatsApp</a>
+          <a class="btn ghost" href="https://www.linkedin.com/in/muthukumaran-m-27657723a" target="_blank" rel="noreferrer">LinkedIn</a>
+        </div>
+      </section>
+    </main>
+
+    <script>
+      // Update education items here; rendered as a simple timeline.
+      const educationData = [
+        {
+          title: 'Bachelor of Computer Science and Engineering',
+          years: '2022 - 2025',
+          domain: 'Computer Science'
+        },
+        {
+          title: 'Diploma in Mechanical Engineering',
+          years: '2019 - 2022',
+          domain: 'Mechanical Engineering'
+        }
+      ];
+
+      function renderEducation(items) {
+        const container = document.getElementById('education-list');
+        if (!container) return;
+        container.innerHTML = items.map((item, idx) => `
+          <div class="edu-item">
+            <div class="edu-marker">
+              <span class="edu-dot"></span>
+              ${idx < items.length - 1 ? '<span class="edu-line"></span>' : ''}
+            </div>
+            <div class="edu-content">
+              <div class="edu-row">
+                <h3>${item.title}</h3>
+                <span class="pill">${item.years}</span>
+              </div>
+              <p class="muted">${item.domain}</p>
+            </div>
+          </div>
+        `).join('');
+      }
+
+      renderEducation(educationData);
+
+    </script>
+  </div>
+</body>
+</html>
+
